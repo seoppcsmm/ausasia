@@ -1,0 +1,194 @@
+﻿
+/*!
+ * JavaScript code for dropdown menu (created: February 05, 2025 09:19:10, Hash: A9C3, UID_CRC: F1A7689F)
+ * Copyright (c) 2003-2025 Dropdown Menu Generator. All rights reserved.
+ * https://www.dropdownmenugenerator.com
+ */
+
+
+function AddGlyphs(Path){
+cmn.RegWbFnt('MG_Icons','MG_Icons',Path+'MG_Icons','r883885374',true);
+};
+
+function AddCss_MyMenu1(Path,HostURL){
+var Css='.A5CEMainMenuDIV *, .A5CESubMenuDIV * {-webkit-box-sizing: content-box !important;-moz-box-sizing: content-box !important;box-sizing: content-box !important;}.A5CEMainMenuDIV TD, .A5CESubMenuDIV TD {vertical-align: middle;border: none;padding: 0px;}.A5CEDefaults {color: #0081C2;OverlapVertical: -3px;OverlapHorizontal: 0px;}.A5CEIconTD, .A5CETitleTD, .A5CEArrowTD, .A5CEHeaderTD, .A5CETitleTD * {text-shadow: none;font-size: 12px;font-family: \'Arial Black\', Arial;white-space: nowrap;padding: 0px;line-height: normal;vertical-align: middle;font-weight: 900 !important;}.A5CETitleTD {text-align: left;}.A5CEArrowTD {padding-left: 4px;}.A5CEIconTD font, .A5CEArrowTD font {margin: 0 !important;display: block !important;padding: 0px;line-height: 12px;}.A5CEMainMenuDIV {padding: 3px;background-color: #666666;cursor: default;}.A5CEMainMenuDIV .A5CEHeaderTD {text-align: left;padding: 5px !important;padding-left: 10px !important;padding-right: 10px !important;color: #A8A8A8;background-color: #6F6F6F;border: solid 1px !important;border-color: #5E5E5E !important;border-right-color: #7F7E7E !important;border-bottom-color: #7F7E7E !important;}.A5CEMainMenuDIV TABLE {width: auto;border: none;border-collapse: separate;margin: 0px;padding: 0px;}.A5CEMainMenuDIV{display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.A5CEMainMenuItemTD {padding: 8px !important;padding-left: 8px !important;padding-right: 8px !important;}.A5CEMainMenuItemTD .A5CETitleTD, .A5CEMainMenuItemTD .A5CEIconTD, .A5CEMainMenuItemTD .A5CEArrowTD {color: #DDDDDD;}.A5CEMainMenuItemHoveredTD {padding: 7px !important;padding-left: 7px !important;padding-right: 7px !important;border: solid 1px !important;border-color: #ABABAB !important;border-right-color: #565656 !important;border-bottom-color: #565656 !important;background-color: #9A9A9A;background: -moz-linear-gradient(top, #949494 0%, #7D7C7C 100%); background: -webkit-linear-gradient(top, #949494 0%, #7D7C7C 100%); background: linear-gradient(to bottom, #949494 0%, #7D7C7C 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#949494\', endColorstr=\'#7D7C7C\', GradientType=0);;position: relative;cursor: default;cursor: hand;cursor: pointer;}.A5CEMainMenuItemHoveredTD .A5CETitleTD, .A5CEMainMenuItemHoveredTD .A5CEIconTD, .A5CEMainMenuItemHoveredTD .A5CEArrowTD {color: #FFFFFF;text-shadow: -1px -1px 0px #565656;}.A5CEMainMenuItemSelectedTD {padding: 7px !important;padding-left: 7px !important;padding-right: 7px !important;border: solid 1px !important;border-color: #565656 !important;border-right-color: #ABABAB !important;border-bottom-color: #ABABAB !important;background-color: #787777;}.A5CEMainMenuItemSelectedTD .A5CETitleTD, .A5CEMainMenuItemSelectedTD .A5CEIconTD, .A5CEMainMenuItemSelectedTD .A5CEArrowTD {color: #DDDDDD;}.A5CESubMenuDIV {-moz-box-sizing: content-box;-webkit-box-sizing: content-box;box-sizing: content-box;padding: 0px;background-color: #676767;cursor: default;}.A5CESubMenuDIV .A5CEHeaderTD {text-align: left;padding: 6px !important;padding-left: 10px !important;padding-right: 10px !important;color: #A8A8A8;}.A5CESubMenuDIV TABLE {border: none;border-collapse: separate;width: auto !important;margin: 0px;padding: 0px;}.A5CESubMenuItemTD, .A5CESubResDIV {padding: 8px !important;padding-left: 10px !important;padding-right: 10px !important;border: solid 1px !important;border-color: #ABABAB !important;border-right-color: #565656 !important;border-bottom-color: #565656 !important;background-color: #9A9A9A;background: -moz-linear-gradient(top, #949494 0%, #7D7C7C 100%); background: -webkit-linear-gradient(top, #949494 0%, #7D7C7C 100%); background: linear-gradient(to bottom, #949494 0%, #7D7C7C 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#949494\', endColorstr=\'#7D7C7C\', GradientType=0);;position: relative;}.A5CESubMenuItemTD .A5CETitleTD, .A5CESubMenuItemTD .A5CEIconTD, .A5CESubMenuItemTD .A5CEArrowTD, .A5CESubResDIV {color: #DDDDDD;}.A5CESubMenuItemHoveredTD, .A5CESubResDIV:hover {padding: 8px !important;padding-left: 10px !important;padding-right: 10px !important;border: solid 1px !important;border-color: #79D2FF !important;border-right-color: #0072AC !important;border-bottom-color: #005C8A !important;background-color: #35BBFF;background: -moz-linear-gradient(top, #05ABFF 0%, #007DBC 100%); background: -webkit-linear-gradient(top, #05ABFF 0%, #007DBC 100%); background: linear-gradient(to bottom, #05ABFF 0%, #007DBC 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#05ABFF\', endColorstr=\'#007DBC\', GradientType=0);;position: relative;cursor: default;cursor: hand;cursor: pointer;}.A5CESubMenuItemHoveredTD .A5CETitleTD, .A5CESubMenuItemHoveredTD .A5CEIconTD, .A5CESubMenuItemHoveredTD .A5CEArrowTD, .A5CESubResDIV:hover {color: #FFFFFF;text-shadow: -1px -1px 0px #0081C2;}.A5CESubMenuItemSelectedTD {padding: 8px !important;padding-left: 10px !important;padding-right: 10px !important;border: solid 1px !important;border-color: #565656 !important;background-color: #676767;}.A5CESubMenuItemSelectedTD .A5CETitleTD, .A5CESubMenuItemSelectedTD .A5CEIconTD, .A5CESubMenuItemSelectedTD .A5CEArrowTD {color: #DDDDDD;}.A5CESeparatorVerticalTD {padding: 0px !important;background-color: #0089CE;}.A5CESeparatorVerticalTD TABLE {width: 4px !important;}.A5CESeparatorHorizontalTD {padding: 2px !important;background-color: #0089CE;}.A5CEMltClmnSepar1TD {padding-left: 0px !important;}.A5CEMltClmnSepar1AddTD {border-left-style: solid !important;border-left-width: 2px !important;border-left-color: #0089CE !important;}.A5CEMltClmnSepar2TD {padding-right: 0px !important;border-right-style: solid !important;border-right-width: 2px !important;border-right-color: #0089CE !important;}.A5CETooltipDIV {font-family: \'Arial Black\', Arial;font-size: 12px;color: #555555;padding: 3px;padding-left: 5px;padding-right: 5px;background-color: #F8F8F8;border: solid 1px #888888;}.A5CESubMenuDIV, .A5CETooltipDIV {-webkit-box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20); -moz-box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20); box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20);}.A5CETooltipDIV {border-radius: 3px; -webkit-border-radius:3px; -khtml-border-radius:3px; -moz-border-radius:3px;}.A5CEIconTD {color: #000000;vertical-align: middle;text-align: center;}.A5CEIconTD font {font-size: 16px;padding-left: 2px;padding-right: 8px;width: 16px;}.A5CEArrowNotitleTD font {padding-left: 0px !important;}';
+
+
+cmn.RegPageCss('Style_Menu_A5CE',Css,true);};
+var gbd4Hirq0nTydMyMenu1='mnFE0BBC45';
+var mnFE0BBC45i=function(){dm.i('mnFE0BBC45',0);};
+var mnFE0BBC45L = null;
+function mnFE0BBC45LCn(Path){
+this.id='MyMenu1';
+this.uid='MyMenu1';
+this.sfu=Path;
+this.ccp='A5CE';
+this.EmpHtm=Path+'Empty.htm';
+this.PngShdCnt=0;
+this.o=1;
+this.ed=1;
+this.TrEff=true;
+this.TrSpd=5;
+this.ho=0;
+this.vo=-3;
+this.zi=999998;
+this.smo='1';
+this.smc='1';
+this.hpth='false';
+this.ocDth=20;
+this.ocDt=250;
+this.HovIts=null;
+this.SelIts=null;
+this.SMH='10000';
+this.nids='<ii1/><ii2><ii6/><ii5/><ii4/><ii54/><ii55/></ii2><ii11><ii65><ii66/></ii65><ii16><ii31/><ii26><ii25/><ii24><ii36/></ii24><ii30/><ii35/><ii34/><ii33><ii56/><ii57/><ii58/><ii63/><ii62/><ii61/><ii60/><ii64/><ii59/></ii33><ii32/></ii26><ii23><ii28/><ii29/></ii23></ii16><ii17><ii44/><ii21/><ii20/><ii19/><ii18/><ii27><ii37/><ii38/><ii39/><ii40/><ii41/></ii27></ii17></ii11><ii42><ii49/><ii45/><ii46/><ii47/><ii53/><ii52/><ii51/></ii42><ii15><ii8><ii9/><ii10/></ii8></ii15>';
+this.SbmAtHd=true;
+this.PosVertTyp='1';
+this.ttt_mnFE0BBC45_i1='Go to Home Page';
+};
+
+var MyMenu1={
+    _path:'',
+    _div:'',
+    _SbMnu:false,
+    Mnu:'',
+    Plcd:false,
+    ItmsCnt:57,CCP:'A5CE',
+    Prepare:function(){
+        var Ident='MyMenu1';
+        var Path=MyMenu1._path;
+        var HostURL='';
+
+        if(Path==''||Path==null||Path==undefined){
+            Path='./'+Ident+'/';
+            var e=document.getElementsByTagName('script');
+            var src=null;
+            var attr=null;
+            var IdentLw=Ident.toLowerCase();
+            var Ind=-1;
+            var attrLw='';
+            for(var i=0;i<e.length;i++){
+                src=e[i].attributes['src'];
+                if(src&&src!=null&&src!=undefined&&src!=''){
+                    attr=src.value;
+                    if(attr&&attr!=null&&attr!=undefined&&attr!=''){
+                        attrLw=attr.toLowerCase();
+                        Ind=attrLw.lastIndexOf('/'+IdentLw+'.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind);
+                            break;
+                        }
+                        Ind=attrLw.lastIndexOf('/'+IdentLw+'_short.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind);
+                            break;
+                        }
+                        Ind=attrLw.indexOf(IdentLw+'/script.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind)+Ident;
+                            break;
+                        }
+                    }
+                }
+            }
+        
+            var PrmInd=0;
+            PrmInd=Path.indexOf('?');
+            if(PrmInd>0)Path=Path.substring(0,PrmInd);
+
+            Path=Path.replace(/(\r\n|\n|\r)/gm,'');/*Line Breaks*/
+        }
+
+        var lst=Path.substring(Path.length-1);
+        if(lst!='/')Path=Path+'/';
+
+        var gl=function(h){var l=document.createElement('a');l.href=h;return l;};
+        var l=gl(Path);
+        HostURL='//'+l.hostname;
+        if(l.protocol!=':')HostURL=l.protocol+HostURL;
+AddGlyphs(HostURL+'/Glyphs/');
+
+AddCss_MyMenu1(Path,HostURL);
+mnFE0BBC45L=new mnFE0BBC45LCn(Path);MyMenu1.Mnu='<div><input id="sit_mnFE0BBC45_vs" name="sit_mnFE0BBC45_vs" type="hidden" value="" /></div><div id="mnFE0BBC45_-0p" class="A5CEMainMenuDIV" onmouseover="dm.vD();" onmouseout="dm.uD();" style="z-index:999999;position:static;vertical-align:top;"><table border="0" cellspacing="0" cellpadding="0" style="display:inline-block;vertical-align:top;" onclick="dm.mc();"><tr><td onmouseout="dm.u(this);" id="mnFE0BBC45_i1" onclick="dm.ItClk(this,\'\',\'1\');cmn.href(\'https://www.dropdownmenugenerator.com/\',\'\');" class="A5CEMainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A5CEIconTD"><font class="MG_Icons">&#xe721;</font></td><td class="A5CETitleTD" id="mnFE0BBC45_i1-tl">Home</td><td class="A5CEArrowTD">&nbsp;</td></tr></table></td><td onmouseout="dm.u(this);" id="mnFE0BBC45_i2" onclick="dm.ItClk(this,\'\',\'1\');" class="A5CEMainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A5CEIconTD"><font class="MG_Icons">&#xe728;</font></td><td class="A5CETitleTD" id="mnFE0BBC45_i2-tl">About</td><td class="A5CEArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe925;</font></td></tr></table></td><td class="A5CESeparatorVerticalTD"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="width:1px;height:1px;" /></tr></table></td><td onmouseout="dm.u(this);" id="mnFE0BBC45_i11" onclick="dm.ItClk(this,\'\',\'1\');" class="A5CEMainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A5CEIconTD"><font class="MG_Icons">&#xe72b;</font></td><td class="A5CETitleTD" id="mnFE0BBC45_i11-tl">Services</td><td class="A5CEArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe925;</font></td></tr></table></td><td class="A5CESeparatorVerticalTD"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="width:1px;height:1px;" /></tr></table></td><td onmouseout="dm.u(this);" id="mnFE0BBC45_i42" onclick="dm.ItClk(this,\'\',\'1\');" class="A5CEMainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A5CEIconTD">&nbsp;</td><td class="A5CETitleTD" id="mnFE0BBC45_i42-tl">Industry Solution</td><td class="A5CEArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe925;</font></td></tr></table></td><td class="A5CESeparatorVerticalTD"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="width:1px;height:1px;" /></tr></table></td><td onmouseout="dm.u(this);" id="mnFE0BBC45_i15" onclick="dm.ItClk(this,\'\',\'1\');" class="A5CEMainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A5CEIconTD"><font class="MG_Icons">&#xe723;</font></td><td class="A5CETitleTD" id="mnFE0BBC45_i15-tl">Contact Us</td><td class="A5CEArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe925;</font></td></tr></table></td></tr></table></div>';var s0='-p" style="Z-INDEX:999999;height:auto;visibility:hidden;POSITION:absolute;LEFT:1px;TOP:1px;WIDTH:auto;padding:0px;"><div<t>SubMenuDIV" onclick="dm.mc();" onmouseover="dm.vD();" onmouseout="dm.uD();<c> id="<r>_i';var s1='<j>ArrowTD<f></table></div></div><div id="<r>_i';var s2='-smt"><g><r>_i';var s3='<j>ArrowTD<f><g><r>_i';var s5=';<d>onmouseout="dm.u(this);<k>_i';var s6=';</font></td></tr></table></td></tr></table></div></div><div id="<r>_i';var s9='<n>\'\',\'1\<z>https://www.facebook.com/';MyMenu1.SubMnu='<div id="<r>ifc"></div><div id="<r>_i2'+s0+'2'+s2+'6<n>\'\',\'1\');<l>2<y>>&#xe758;<h>6-tl">Aus Asia Online'+s3+'5<n>\'\',\'1\');<l>2<y>>&#xe745;<h>5-tl">Blog'+s3+'4<n>\'\',\'1\');<l>2<y>>&#xe74a;<h>4-tl">Portfolio'+s3+'54<n>\'\',\'1\');<l>2<y>>&#xe74f;<h>54-tl">Case Studies'+s3+'55<n>\'\',\'1\');<l>2<y>>&#xe767;<h>55-tl">Industry Insights'+s1+'11'+s0+'11'+s2+'65<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i65-tl">Digital Transformation<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s5+'16<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i16-tl">Web Design &amp; Development<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s5+'17<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i17-tl">Digital Marketing<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s6+'65'+s0+'65'+s2+'66<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i66-tl">Digital Branding'+s1+'16'+s0+'16'+s2+'31<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i31-tl">Web Hosting'+s3+'26<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i26-tl">Custom Web Design<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s5+'23<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i23-tl">User Experience (UX)<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s6+'26'+s0+'26'+s2+'25<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i25-tl">Small Business Websites'+s3+'24<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i24-tl">eCommerce Websites<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s5+'30<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i30-tl">Responsive Websites'+s3+'35<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i35-tl">Landing Pages'+s3+'34<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i34-tl">One Page Websites'+s3+'33<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i33-tl">Content Management System (CMS) Integration<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s5+'32<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i32-tl">Web App Development'+s1+'24'+s0+'24'+s2+'36<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i36-tl">E-Commerce Integration'+s1+'33'+s0+'33'+s2+'56<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i56-tl">WordPress'+s3+'57<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i57-tl">Woocommerce'+s3+'58<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i58-tl">Shopify'+s3+'63<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i63-tl">Magento'+s3+'62<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i62-tl">Hubspot Content Hub'+s3+'61<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i61-tl">Drupal'+s3+'60<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i60-tl">Wix'+s3+'64<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i64-tl">BigCommerce'+s3+'59<n>\'\',\'1\');<l>5);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i59-tl">PrestaShop'+s1+'23'+s0+'23'+s2+'28<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i28-tl">UX Design'+s3+'29<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i29-tl">Website UX Redesign'+s1+'17'+s0+'17'+s2+'44<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i44-tl">Content Marketing'+s3+'21<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i21-tl">Local SEO'+s3+'20<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i20-tl">Search Engine Optimisation (SEO)'+s3+'19<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i19-tl">Social Media Marketing (SMM)'+s3+'18<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i18-tl">Online Ads Management (PPC)'+s3+'27<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i27-tl">Email Marketing &amp; Marketing Automation<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s6+'27'+s0+'27'+s2+'37<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i37-tl">Email Design'+s3+'38<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i38-tl">Email Broadcast Integration'+s3+'39<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i39-tl">A/B Testing'+s3+'40<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i40-tl">List Management'+s3+'41<n>\'\',\'1\');<l>4);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i41-tl">Sales Funnel Automation'+s1+'42'+s0+'42'+s2+'49<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i49-tl">NDIS'+s3+'45<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i45-tl">Law Firm'+s3+'46<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i46-tl">Accountant'+s3+'47<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i47-tl">Builders'+s3+'53<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i53-tl">Hospitality'+s3+'52<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i52-tl">Cafes &amp; Restaurant'+s3+'51<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i51-tl">Tradies'+s1+'15'+s0+'15'+s2+'8<n>\'\',\'1\');<l>2<y>>&#xe77d;<h>8-tl">Follow Us<j>ArrowTD<o> style="font-size:16px;width:7px;padding-left:10px;">&#xea25'+s6+'8'+s0+'8'+s2+'9'+s9+'\',\'_blank\');<l>3<y>>&#xe75b;<h>9-tl">Facebook'+s3+'10<n>\'\',\'1\<z>https://twitter.com/\',\'_blank\');<l>3<y>>&#xe75c;<h>10-tl">Twitter<j>ArrowTD<f></table></div></div>';MyMenu1.SubMnu=cmn.DeCompact(MyMenu1.SubMnu,'A5CE','mnFE0BBC45','MG_Icons', '0');
+    },
+
+    addEvent:function(el,evnt,func){
+        try{
+            if(el.addEventListener){
+                el.addEventListener(evnt, func, false);
+            }else if(el.attachEvent){
+                el.attachEvent('on'+evnt, func);
+            }
+        }catch(e){}
+    },
+
+    GetDst:function(){
+        var DstID=MyMenu1._div;
+        if(DstID=='')DstID='MyMenu1';
+        var Dst=cmn.Mko(DstID);
+        return Dst;
+    },
+
+    PlaceAuto:function(p,d,sb){
+        MyMenu1.Plcd=false;
+        MyMenu1._path='';
+        MyMenu1._div='';
+        MyMenu1._SbMnu=false;
+        if(p!=null&&p!=undefined&&p!=''){MyMenu1._path=p;}
+        if(d!=null&&d!=undefined&&d!=''){MyMenu1._div=d;}
+        if(sb==true){MyMenu1._SbMnu=true;}
+        MyMenu1.Prepare();
+        MyMenu1.addEvent(window,'load',MyMenu1.PutInDIV);
+        MyMenu1.PutInDIV_TO(0);
+    },
+
+    PutInDIV_TO:function(t){
+        var Dst=MyMenu1.GetDst();
+        if(Dst==null||Dst==undefined){
+            if(t<50){
+                t++;
+                setTimeout('MyMenu1.PutInDIV_TO('+t+');',50);
+                return;
+            }
+        }else{
+            MyMenu1.PutInDIV();
+        }
+    },
+
+    PutInDIV:function(){
+        if(MyMenu1.Plcd==true)return;
+        var Dst=MyMenu1.GetDst();
+        if(Dst==null||Dst==undefined){
+            return;
+        }
+
+
+        if(MyMenu1._SbMnu==true){
+            Dst.innerHTML=MyMenu1.Mnu+MyMenu1.SubMnu;
+        }else{
+            Dst.innerHTML=MyMenu1.Mnu;
+            var Dv=document.createElement('DIV');
+            Dv.innerHTML=MyMenu1.SubMnu;
+            document.body.appendChild(Dv);
+        }
+
+        setTimeout('mnFE0BBC45i()',10);
+        MyMenu1.Plcd=true;
+        var Mnu=cmn.Mko('mnFE0BBC45_-0p');
+        if(Mnu!=null){
+            var ShMn=function(){
+                Mnu.childNodes[0].style.visibility='visible';
+            };
+            setTimeout(ShMn,20);
+        }
+    },
+    
+    Show:function(){
+        MyMenu1.Plcd=false;
+        MyMenu1.Prepare();
+        document.write(MyMenu1.Mnu+MyMenu1.SubMnu);
+        setTimeout('mnFE0BBC45i()',10);
+        MyMenu1.Plcd=true;
+    }
+
+};
+MyMenu1.PlaceAuto();
